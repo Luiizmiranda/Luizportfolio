@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Luiz Miranda">
+    <meta name="description" content="Portfólio da desenvolvedor front-end Luiz Miranda dos santos">
+    <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+    <title>Luiz Miranda</title>
+    <link rel="icon" href="icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+<body>
+  <!--===================CABEÇALHO===================-->
+    <header>
+      <nav data-menu="suave">
+       <p><a href="#home">&lsaquo;LM/&rsaquo;</a></p>
+         <button data-menu="button" aria-controls="menu"></button>
+          <ul data-menu="list" id="menu">
+            <a href="#home">
+              <li>Home</li>
+            </a>
+               <a href="#sobre">
+                 <li>Sobre</li>
+               </a>
+                 <a href="#projetos">
+                  <li>Projetos</li>
+                 </a>
+          </ul>
+      </nav>
+    </header>
+<!--==================================CABEÇALHO2====================-->
+  <main>
+      <section class="principal" id="home" >
+         <div class="principal__left">
+            <h1>Olá, eu sou</h1>
+              <span class="principal__sentence"></span>
+              <span class="principal__input-cursor"></span>
+                <h1>Desenvolvedor Front-End</h1>
+                  <div class="principal__botao">
+                    <a href="https://www.linkedin.com/in/luiiz-miranda/" target="_blank">
+                      <div class="principal__botao-linkedin">
+                      <img src="./assets/linkedin.png" alt="" />
+                      <p>LinkedIn</p></div>
+                    </a>
+                  <a href="https://github.com/Luiizmiranda" target="_blank">
+                    <div class="principal__botao-github">
+                    <img src="./assets/github.png" alt="" />
+                    <p>Github</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              
+              <div class="principal__right">
+                <img src="./assets/lulu.png" alt="desenvolvedor sentado trabalhando." data-tilt class="imgdev">
+              </div>
+              <div class="scroll" data-menu="suave"><a href="#sobre" > <p> scroll down </p> <img src="./assets/scroll.png" alt="Seta       indicando para rolar a tela para baixo"></a>
+              </div>
+      </section> 
+
+     <!--=========================SOBRE MIM=================================-->
+      <section class="sobre-mim" id="sobre" data-anime="js-scroll">
+        <div class="sobre-mim__foto">
+          <img src="./assets/luizfoto1.png" alt="Uma selfie do Luiz Miranda" />
+        </div>
+
+        <div class="sobre-mim__descricao" >
+          <h1>Sobre mim</h1>
+          <h2>Manaus,Amazonas</h2>
+          <p>Luiz esta cursando ADS(analise e desenvolvimento de sistemas), é apaixonado pela tecnologia ,conhecimento inovações.Esta sempre em busca de se desenvolver e de novos desafios, procurando ficar atualizado sobre as novidades dentro da sua área e de outras áreas por curiosidade.Luiz é comunicativo, resiliente e determinado.<p>
+
+        <div class="sobre-mim__descricao-buttons">
+          <a href="./assets/Gabriela Souza.pdf" download=""><!--COLOCAR TEU CURRICULO-->
+        <div class="sobre-mim__descricao-buttons-curriculo">
+           <img src="./assets/download-da-nuvem.png" alt="" />
+            <p>Currículo</p>
+        </div>
+        </a>
+        </div>
+        </div>
+      </section>
+
+      <!--=================PROJETO1===============================-->
+      <section class="projetos" id="projetos" data-anime="js-scroll">
+        <h1>Projetos</h1>
+          <class class="projetos__wrapper">
+            <section class="projetos__card">
+              <a href="https://luiizmiranda.github.io/Investimentos/" target="_blank">
+                <img src="./assets/projeto2.png" alt="" class="projeto-img"/>
+              </a>
+            <h2>Investimentos</h2>
+            <p>Projeto desenvolvido a partir do curso de JavaScript, para por em prática meus estudos com CSS e JS.</p>
+            <span>Tecnologias usadas no projeto: HTML, CSS, JavaScript .</span>
+          <!--=======BOTÃO=========-->
+            <a href="https://luiizmiranda.github.io/Investimentos/" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="Imagem de raposa representando meu projeto número 1">
+                 Visualizar
+              </div>
+            </a>
+      </section>
+          <!--=================PROJETO2========================-->
+          <section class="projetos__card">
+            <a href="https://luiizmiranda.github.io/Apple-Watch/" target="_blank">
+              <img src="./assets/projeto1.png" alt="Imagem do filme vingadores representando meu projeto número 2" class="projeto-img"/>
+           </a>
+            <h2>Apple Watch</h2>
+            <p>Um dos primeiros projeto me aventurando na área de tecnologia,em HTML e CSS. A partir dele pude evoluir bastante.</p>
+            <span>Tecnologias usadas no projeto: CSS E HTML.</span>
+             <a href="https://luiizmiranda.github.io/Apple-Watch/" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="">
+                Visualizar</div>
+            </a>
+          </section>
+          <!--======================PROJETO3===================================-->
+          <section class="projetos__card">
+            <a href="https://gabrielaguaru.github.io/pokedex/" target="_blank">
+              <img src="./assets/projeto3.png" alt="" class="projeto-img"/>
+            </a>
+            <h2>Pokédex</h2>
+            <p>Projeto realizado em ReactJS consumindo uma API de Pokémon.</p>
+            <span>Tecnologias usadas no projeto: HTML, CSS, ReactJS, JSX.</span>
+            <a href="https://gabrielaguaru.github.io/pokedex/" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="Imagem logo do pokémon representando meu projeto número 3">
+                Visualizar
+              </div>
+            </a>
+          </section>
+          <!--===========================PROJETO4================================-->
+          <section class="projetos__card">
+            <a href="https://gabrielaguaru.github.io/casa-verde/" target="_blank">
+             <img src="./assets/projeto4.png" alt="Imagem logo de folhas de uma planta representando meu projeto número 4" class="projeto-img"/>
+            </a>
+            <h2>Casa Verde</h2>
+            <p>Projeto realizado em ReactJS a partir do 7 days of code da Alura. O projeto encontra-se em fase de desenvolvimento.</p>
+            <span>Tecnologias usadas no projeto: HTML, CSS, ReactJS, JSX, Styled Components (CSS-in-JS).</span>
+            <a href="https://gabrielaguaru.github.io/casa-verde/" target="_blank">
+              <div class="projetos__card-button">
+                <img src="./assets/link.png" alt="">
+                Visualizar
+              </div>
+            </a>
+          </section>
+        </div>
+      </section>
+      <!--===========================RODAPE========================================-->
+      <footer>
+        <p>Desenvolvido por </p><a href="https://www.linkedin.com/in/luiiz-miranda/" target="_blank"><span> Luiz Miranda</span></a>
+      </footer>
+  </main>
+
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/modules/vanilla-tilt.min.js"></script>
+</body>
+</html>
