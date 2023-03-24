@@ -166,7 +166,7 @@ a {
 }
 
 .principal .scroll p{
-  padding: 1rem 0;
+  padding: 14rem 0;
   display: inline-block;
 }
 
@@ -194,6 +194,7 @@ a {
 .principal__left {
   width: 50%;
   margin: 5rem 0;
+  margin-top: -9rem;
 }
 
 .principal__right {
@@ -202,6 +203,7 @@ a {
 }
 .imgdev{
   border-radius: 17%;
+  margin-top: -10rem;
   
 }
 
@@ -490,7 +492,10 @@ a {
   .projetos {
     padding: 6.5%;
   }
+  
 }
+
+
 
 @media (max-width: 880px) {
   .principal,
@@ -511,7 +516,9 @@ a {
   }
 
   .principal__left {
-    width: 90%;
+    width: 75%;
+    margin: -6rem 0;
+    margin-top: -9rem;
   }
 
   .principal__right {
@@ -532,6 +539,9 @@ a {
     width: 80%;
   }
 
+  .sobre-mim__descricao-buttons-curriculo {
+    margin-left: 11rem;
+  }
   .principal__botao,
   .sobre-mim__descricao-buttons {
     width: 350px;
@@ -550,6 +560,13 @@ a {
 
   .projetos__card-button {
     margin: auto;
+  }
+
+  .principal .scroll p{
+    padding: 5rem 0;
+    padding-left: 2rem;
+    display: inline-block;
+
   }
 }
 
@@ -578,4 +595,5 @@ a {
   footer {
     font-size: 0.8rem;
   }
+
 }
