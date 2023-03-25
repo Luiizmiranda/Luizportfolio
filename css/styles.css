@@ -495,8 +495,6 @@ a {
   
 }
 
-
-
 @media (max-width: 880px) {
   .principal,
   .sobre-mim,
@@ -586,6 +584,9 @@ a {
     width: 110px;
   }
 
+  .sobre-mim__descricao-buttons-curriculo{
+    margin-left: 11rem;
+  }
   .principal__botao,
   .sobre-mim__descricao-buttons {
     width: auto;
