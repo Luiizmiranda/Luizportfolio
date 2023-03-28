@@ -437,6 +437,9 @@ a {
   width: 100%;
   transition: 0.5s;
 }
+#op{
+  height:145px ;
+}
 
 .projeto-img:hover {
   transform: scale(110%);
